@@ -1,5 +1,6 @@
 package com.example.myapplication.ui.fragment;
 
+import android.app.Dialog;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -10,8 +11,11 @@ import android.os.StrictMode;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.view.Window;
+import android.widget.Toast;
 
 import com.example.myapplication.R;
+import com.example.myapplication.ui.FragmentTab;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -61,35 +65,12 @@ public class CitacoesFragment extends Fragment {
             mParam2 = getArguments().getString(ARG_PARAM2);
         }
     }
-    RecyclerView mRecyclerView;
-    JSONArray json;
+
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_videos, container, false);
-        if (android.os.Build.VERSION.SDK_INT > 9)
-        {
-            StrictMode.ThreadPolicy policy = new
-                    StrictMode.ThreadPolicy.Builder().permitAll().build();
-            StrictMode.setThreadPolicy(policy);
-        }
-        mRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_view);
-        LinearLayoutManager mLayoutManager = new LinearLayoutManager(getActivity());
-        mLayoutManager.setOrientation(LinearLayoutManager.VERTICAL);
-        mRecyclerView.setLayoutManager(mLayoutManager);
-
-
-        try {
-            json = new JSONArray("");
-        } catch (JSONException e) {
-            e.printStackTrace();
-        }
-        //mRecyclerView.getAdapter().notifyDataSetChanged();
-
-
-
-        mRecyclerView.setAdapter(new CitacoesFragment().MyListAdapter(json));
-        return view;
-
+        // Inflate the layout for this fragment
+        return inflater.inflate(R.layout.fragment_citacoes, container, false);
     }
+    
 }
