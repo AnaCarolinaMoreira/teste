@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="title_Fundamentos">Fundamentos</string>
+    <string name="title_Insight">Insight</string>
+    <string name="text_citacoes">Lorem ipsum phasellus pulvinar rhoncus ipsum porttitor arcu, rhoncus
+        eleifend nam egestas donec mauris morbi, est placerat cras morbi nisl ut. conubia aenean
+        nam vulputate cubilia fusce arcu quisque massa metus, venenatis proin velit
+        venenatis ullamcorper risus ligula etiam, vitae commodo lacus libero commodo vulputate commodo porta.</string>
+</resources>
