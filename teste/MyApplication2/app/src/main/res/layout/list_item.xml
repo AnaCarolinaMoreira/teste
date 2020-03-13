@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
@@ -8,30 +8,35 @@
     android:layout_marginRight="7dp"
     android:layout_marginBottom="0dp">
 
-    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+
+    <LinearLayout
         android:id="@+id/lna"
-        android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:paddingBottom="15dp"
-        android:padding="10dp">
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:paddingBottom="15dp">
+
         <TextView
             android:id="@+id/titulo"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textFontWeight="20"
-            android:textStyle="bold"
+            android:textAlignment="center"
             android:textAppearance="?android:attr/textAppearanceLarge"
-            android:textAlignment="center">
+            android:textFontWeight="20"
+            android:textStyle="bold">
 
         </TextView>
+
         <ImageView
             android:id="@+id/imgv"
             android:layout_width="match_parent"
             android:layout_height="200dp"
-            android:layout_centerVertical="true"
             android:layout_alignParentStart="true"
             android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
             android:layout_marginStart="@dimen/activity_horizontal_margin"
             android:layout_marginEnd="@dimen/activity_horizontal_margin" />
 
@@ -42,18 +47,25 @@
             android:layout_toEndOf="@id/imgv"
             android:layout_toRightOf="@id/imgv"
             android:gravity="center_vertical"
+            android:textAlignment="center"
             android:textSize="16sp"
-            android:textAlignment="center"/>
+            android:textColor="@color/text"/>
 
         <Button
             android:id="@+id/button"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Compartilhar"
-            android:drawableLeft="@drawable/ic_share_black_24dp"/>
+            android:layout_width="177dp"
+            android:layout_height="31dp"
+            android:layout_marginLeft="95dp"
+            android:layout_marginRight="50dp"
+            android:background="@drawable/btn_rounded"
+            android:baselineAligned="false"
+            android:drawableLeft="@drawable/ic_share_black_24dp"
+            android:text="@string/button_compartilhar"
+            android:textColor="@color/text" />
+
     </LinearLayout>
 
 
 
 
-</LinearLayout>
+</FrameLayout>

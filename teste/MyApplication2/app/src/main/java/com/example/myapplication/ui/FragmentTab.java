@@ -1,4 +1,5 @@
-package com.example.myapplication.ui.fragment;
+
+package com.example.myapplication.ui;
 
 import android.app.Dialog;
 import android.os.Bundle;
@@ -50,11 +51,11 @@ public class FragmentTab extends Fragment {
                     "        \"id\": 4,\n" +
                     "        \"name\": \"Felicidade genuína\",\n" +
                     "        \"description\": \"O que é felicidade genuína e como podemos cultiva-la? E como confundimos prazer com felicidade?\",\n" +
-                    "        \"file\": \"https://applojong.com/files/8ahygea0tzv1f2vh8gvo/fg.png\",\n" +
+                    "        \"file\": \"https://devlojong.com/files/8ahygea0tzv1f2vh8gvo/fg.png\",\n" +
                     "        \"url\": \"https://vimeo.com/221875345\",\n" +
                     "        \"url2\": \"https://youtu.be/tSZA49-TBSg\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/1felicidadegenuina.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/8ahygea0tzv1f2vh8gvo/fg.png\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/8ahygea0tzv1f2vh8gvo/fg.png\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/felicidadegenuina.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 1\n" +
@@ -67,7 +68,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/221875689\",\n" +
                     "        \"url2\": \"https://youtu.be/uYj2K_XrJRQ\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/2cienciaemeditacao.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/fwmx8rgr44yg1cpkw5ev/cem.png\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/fwmx8rgr44yg1cpkw5ev/cem.png\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/cienciaemeditacao.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 2\n" +
@@ -76,11 +77,11 @@ public class FragmentTab extends Fragment {
                     "        \"id\": 5,\n" +
                     "        \"name\": \"A prática da meditação\",\n" +
                     "        \"description\": \"O objetivo da meditação é nos fazer ver a realidade como ela é. Mas como fazemos isso?\",\n" +
-                    "        \"file\": \"https://applojong.com/files/iqx0noxdk4ujdqopkdxd/pm.png\",\n" +
+                    "        \"file\": \"https://devlojong.com/files/iqx0noxdk4ujdqopkdxd/pm.png\",\n" +
                     "        \"url\": \"https://vimeo.com/221875412\",\n" +
                     "        \"url2\": \"https://youtu.be/g85idoLQIqY\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/3praticadameditacao.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/cgbfl18kldepxcp1b2zo/tna.png\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/cgbfl18kldepxcp1b2zo/tna.png\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/apraticadameditacao.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 3\n" +
@@ -93,7 +94,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/244994854\",\n" +
                     "        \"url2\": \"https://youtu.be/PZ11v2qQMtc\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/4atencaoplena.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/302sofvyizhtdxqfo9tj/episodio4.png\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/302sofvyizhtdxqfo9tj/episodio4.png\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/atencaoplena.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 4\n" +
@@ -106,7 +107,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/255031658\",\n" +
                     "        \"url2\": \"https://youtu.be/cPqUPZqQenE\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/5tiposdemeditacao.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/m55eow1rllf1vf0od6fs/ep5tho.jpg\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/m55eow1rllf1vf0od6fs/ep5tho.jpg\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/ostiposdemeditacao.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 5\n" +
@@ -119,7 +120,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/223279488\",\n" +
                     "        \"url2\": \"https://youtu.be/7p9pihdUmbw\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/6introlojong.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/yatxhjt9zaxka1gdntqw/introthumb.jpg\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/yatxhjt9zaxka1gdntqw/introthumb.jpg\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/introducao.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 6\n" +
@@ -132,7 +133,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/225545093\",\n" +
                     "        \"url2\": \"https://vimeo.com/225545093\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/7equilibrioconativo.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/jddovdfwpugd2rvgzlfp/eqconativo.jpg\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/jddovdfwpugd2rvgzlfp/eqconativo.jpg\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/conativo.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 7\n" +
@@ -145,7 +146,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/225545090\",\n" +
                     "        \"url2\": \"https://vimeo.com/225545090\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/8equilibriodaatencao.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/tk1q0myjueciqo6cj6o0/atencaoeq.jpg\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/tk1q0myjueciqo6cj6o0/atencaoeq.jpg\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/atencao.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 8\n" +
@@ -158,7 +159,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/225545072\",\n" +
                     "        \"url2\": \"https://vimeo.com/225545072\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/9equilibrioafetivo.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/mjohbmnjstmgmt7ut1az/eqafetivo.jpg\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/mjohbmnjstmgmt7ut1az/eqafetivo.jpg\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/afetivo.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 9\n" +
@@ -171,7 +172,7 @@ public class FragmentTab extends Fragment {
                     "        \"url\": \"https://vimeo.com/225545110\",\n" +
                     "        \"url2\": \"https://vimeo.com/225545110\",\n" +
                     "        \"aws_url\": \"https://d35mkqei6qg744.cloudfront.net/pt/videos/10equilibriocognitivo.mp4\",\n" +
-                    "        \"image\": \"https://applojong.com/files/waoi9zduh0bihi4643um/Cognitivo.jpg\",\n" +
+                    "        \"image\": \"https://devlojong.com/files/waoi9zduh0bihi4643um/Cognitivo.jpg\",\n" +
                     "        \"image_url\": \"https://d2g3qjbxchhsv1.cloudfront.net/images/videos/cognitivo.jpg\",\n" +
                     "        \"premium\": 0,\n" +
                     "        \"order\": 10\n" +

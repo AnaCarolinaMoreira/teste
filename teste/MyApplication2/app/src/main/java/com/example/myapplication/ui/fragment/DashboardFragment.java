@@ -73,11 +73,13 @@ public class DashboardFragment extends Fragment {
 
             switch (position) {
                 case 0:
-                    return new FragmentTab();
+                    return new VideosFragment();
                 case 1:
-                    return new FragmentTab();
+                    return new ArtigosFragment();
                 case 2:
-                    return new FragmentTab();
+                    return new CitacoesFragment();
+             //   case 3:
+             //       return new FragmentTab();
 
                 default:
                     return null;

@@ -6,4 +6,8 @@
         eleifend nam egestas donec mauris morbi, est placerat cras morbi nisl ut. conubia aenean
         nam vulputate cubilia fusce arcu quisque massa metus, venenatis proin velit
         venenatis ullamcorper risus ligula etiam, vitae commodo lacus libero commodo vulputate commodo porta.</string>
+    <string name="button_compartilhar">Compartilhar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
