@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.Window;
+import android.widget.Button;
 import android.widget.Toast;
 
 import com.example.myapplication.R;
@@ -25,7 +26,7 @@ import org.json.JSONException;
  * Use the {@link CitacoesFragment#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class CitacoesFragment extends Fragment {
+public class CitacoesFragment extends Fragment{
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -70,7 +71,27 @@ public class CitacoesFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_citacoes, container, false);
+        View view = inflater.inflate(R.layout.fragment_citacoes, container, false);
+
+        Button button = (Button) view.findViewById(R.id.button1);
+        button.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Toast.makeText(getActivity(), "Clicou em Compartilhar", Toast.LENGTH_SHORT).show();
+                showpopup();
+            }
+            public void showpopup()
+            {
+                Dialog dialog = new Dialog(getContext(), android.R.style.Theme_Light);
+                dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+                dialog.setContentView(R.layout.dialog_layout);
+                dialog.show();
+            }
+        });
+        return view;
     }
-    
+
+
 }

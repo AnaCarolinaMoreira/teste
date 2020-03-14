@@ -30,7 +30,7 @@
             app:srcCompat="@drawable/citacoes" />
 
         <Button
-            android:id="@+id/button"
+            android:id="@+id/button1"
             android:layout_width="153dp"
             android:layout_height="34dp"
             android:layout_below="@+id/imgv"
@@ -49,26 +49,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@+id/imgv"
-            android:text="TextView"
+            android:text="Mingyur Rinpoche"
             app:layout_constraintBottom_toTopOf="@+id/button"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.501"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.782" />
+            app:layout_constraintVertical_bias="0.782"
+            android:textSize="15dp"/>
 
         <TextView
             android:id="@+id/textView11"
-            android:layout_width="254dp"
-            android:layout_height="177dp"
+            android:layout_width="306dp"
+            android:layout_height="116dp"
             android:layout_below="@+id/imgv"
-            android:text="TextView"
+            android:text="A única diferença entre a meditação e o aprofundamento de uma amizade é que, no primeiro caso, o amigo que aprendem a conhecer pouco a pouco são vocês mesmos"
+            android:textAlignment="center"
+            android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="@+id/imgv"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintHorizontal_bias="0.505"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.365" />
+            app:layout_constraintVertical_bias="0.421" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
